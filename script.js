@@ -50,8 +50,10 @@ $(document).ready(function() {
 
     // Renders current weather data for city on page by dynamically updating HTML
     function renderWeatherDisplay(response, responseUV) {
-        $("#weather-info-display").empty(); // empty the weather-info-display div, so that elements do not get duplicated if this function is called multiple times
-        $(".hide").show(); // shows the hidden weather display, due to styling - borders are shown even if empty so we have to hide it initially
+         // Empties the weather-info-display div, so that elements do not get duplicated if this function is called multiple times
+        $("#weather-info-display").empty();
+         // Shows the hidden weather display, due to styling - borders are shown even if empty so we have to hide it initially
+        $(".hide").show();
         $("#weather-info-display").append($("<h2>").text(`${response.name}`));
         $("h2").append($("<img>").attr("src", `https://openweathermap.org/img/w/${response.weather[0].icon}.png`));
         $("#weather-info-display").append($("<p>").text(`Temperature: ${response.main.temp} °F`));
