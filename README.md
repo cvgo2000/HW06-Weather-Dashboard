@@ -4,3 +4,7 @@ This week we were tasked with creating a weather dashboard application that uses
 
 Link to the dashboard: https://cvgo2000.github.io/HW06-Weather-Dashboard/
 Link to code repo: https://github.com/cvgo2000/HW06-Weather-Dashboard
+
+
+Screenshot of working app
+https://github.com/cvgo2000/HW06-Weather-Dashboard/blob/main/Working%20screenshot.png?raw=true
